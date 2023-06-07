@@ -22,8 +22,8 @@ function Home({ posts }) {
 }
 
 export async function getStaticProps() {
-  const postRes = await axios.get("https://dummyjson.com/posts");
-  console.log("post:", postRes);
+  //const postRes = await axios.get("http://localhost:1337/api/posts-blogs/");
+  //console.log("Response is:",postRes);
   return {
     props: {
       // posts: postRes.data,
